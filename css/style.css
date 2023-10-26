@@ -1,0 +1,208 @@
+*body{
+    margin: 0;
+    padding: 0;
+}
+#content-area{
+    padding: 30px 0;
+}
+/* card style*/
+.card{
+    max-width: 530px;
+    margin: 15px 10px;
+
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    margin: 10px 0px;
+}
+.card-title{
+padding-top: 12px;
+margin-left: 12px;
+    font-size: 20px;
+    color: rgb(1, 1, 23);
+    
+}
+.card-text{
+    font-size: 16px;
+    margin-left: 12px;
+
+}
+/* content-page*/
+#content-page{
+    padding: 78px 0;
+}
+.pic img{
+    max-height: 400px;
+    min-width: 300px;
+}
+
+/* *********front page navbar desogn***************/
+.navbar-brand{
+    color: red;
+    font-size: 25px;
+    margin-left: 12px;;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #000000;
+}
+.navbar-brand:hover{
+    color: red;
+    font-size: 25px;
+    margin-left: 12px;;
+    font-weight: 800;
+}
+.navbar{
+    background-color: rgb(5, 26, 65);
+    
+}
+.nav-item a{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+}
+.nav-item:hover a{
+    color: #580508;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+#content-area{
+    background-color: rgba(246, 242, 242, 0.977);
+}
+/* *********footer design - frontpage***************/
+#footer-area{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 67px 0;
+}
+.post-img{
+    width: 100%;
+    height: 200px;
+    margin: 10px 15px;
+
+}
+/* *********single-page-css - frontpage***************/
+#main-containt{
+    padding: 67px 0;
+}
+.post-single-post{
+    color:black;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.post-information{
+    color: red;
+    font-size: 16px;
+    margin: 0 20px 0 0;
+}
+.post-information a{
+    color: red;
+    font-size: 16px;
+    margin: 0 20px 0 10px;
+    text-decoration: none;
+}
+.single-feature-image{
+    height: 400px;
+width:500px; 
+margin-bottom: 23px;
+align-items: center;
+}
+.admin-pagination li a{
+    color: coral;
+    margin-left: 23px;
+    font-size: 23px;
+    font-weight: 500;
+    text-decoration: none;
+ 
+}
+.admin-pagination li:active a{
+    color: blueviolet;
+}
+/* *********side-bar-css - ***************/
+#sidebar{
+    padding: 52px 20px;
+    background-color: rgba(162, 168, 168, 0.484);
+
+}
+.search-box-container{
+    padding: 22px 10px;
+    background-color: #fff;
+    margin-bottom: 35px;
+}
+.recent-post-container{
+    padding: 23px 10px;
+    background-color: #fff;
+}
+.post-content  h5 a {
+    color: rgb(53, 7, 101);
+    text-decoration: none;
+    font-size: 18px;
+    }
+.recent-post a{
+    color:red;
+    text-decoration: none;
+    margin-left: 8px;
+    margin: 0px 12px 0px 0px;
+}
+.recent-post {
+    color: red;
+    padding: 10px 0px;
+   
+}
+.recent-post-container h4{
+    color: crimson;
+    padding: 15px;
+}
+.card-title a{
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*category page css*/
+.post-container{
+    padding: 29px 0;
+}
+.page-heading {
+    color: rgb(233, 59, 59); 
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-left: 23px;
+    padding: 12px;
+}
+.post-img img{
+    width: 100%;
+    height: 100px;
+    margin: 10px 0px;   
+}
+.inner-content h3 a{
+    color: rgb(47, 7, 136);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.post-information i a{
+    margin-left: 12px;
+}
+.description{
+    margin-left: 12px;
+}
+.hori-line{
+   color: blue;
+}
+
+/*---------*/
+.readbtn {
+    color: #fff;
+    background-color: blue;
+   position: absolute;
+    text-decoration: none;
+    align-items: end;
+}
+/*------Pagination css  ---*/
+.pagination li a{
+    color: #1231ca;
+  align-items: center;
+}
